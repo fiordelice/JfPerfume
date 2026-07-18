@@ -323,7 +323,7 @@ const products = [
   id: 'shagaf-al-ward',
   name: 'Shagaf Al Ward',
   category: 'feminino',
-  description: 'Perfume feminino floral frutado doce e romântico. Notas de frutas vermelhas, pêssego, rosa, jasmim, baunilha e almíscar branco. Fragrância marcante, feminina e envolvente com excelente fixação. Eau de Parfum 100ml.',
+  description: 'Perfume feminino oriental floral doce e viciante. Abertura de frutas vermelhas e pêssego, coração de rosa e jasmim, e fundo cremoso de baunilha e almíscar branco. Elegante, romântico e com fixação intensa. Ideal para uso diário e noite. Eau de Parfum 100ml.',
   price: 200.00,
   image: 'image copy 29.png',
 },
