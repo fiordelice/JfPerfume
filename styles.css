@@ -295,7 +295,114 @@ button {
   text-transform: capitalize;
   font-size: 0.85rem;
 }
+.categories-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  padding: 12px 16px 0;
+  border-top: 1px solid var(--border);
+}
 
+.category-menu-btn {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  flex: 0 1 auto;
+}
+
+.category-menu-btn.active,
+.category-menu-btn:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* TABLET: 3 por linha */
+@media (max-width: 900px) {
+  .category-menu-btn {
+    padding: 11px 18px;
+    font-size: 0.92rem;
+  }
+}
+
+/* MOBILE: 2 em cima e 2 embaixo */
+@media (max-width: 660px) {
+  .categories-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 colunas */
+    gap: 10px;
+    padding: 12px 16px;
+  }
+.back-to-top {
+  position: fixed;
+  bottom: 290px; /* subiu bastante */
+  right: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: var(--primary);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 0 8px 24px rgba(192, 86, 127, 0.3);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  z-index: 99;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--primary-strong);
+  transform: translateY(-3px);
+}
+
+/* Mobile */
+@media (max-width: 660px) {
+  .back-to-top {
+    bottom: 700px; /* bem mais alto no celular também */
+    right: 16px;
+    width: 46px;
+    height: 46px;
+    font-size: 1.3rem;
+  }
+}
+  .category-menu-btn {
+    width: 100%; /* ocupa a coluna toda */
+    text-align: center;
+    padding: 12px 10px;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* se passar, vira "..." */
+  }
+}
+
+/* CELULAR PEQUENO: diminui fonte pra caber tudo */
+@media (max-width: 400px) {
+  .category-menu-btn {
+    padding: 11px 8px;
+    font-size: 0.85rem;
+  }
+}
 .product-card h3 {
   font-size: 1.18rem;
   margin: 0;
