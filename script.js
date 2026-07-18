@@ -184,7 +184,7 @@ const products = [
   name: 'Attar Al Wesal',
   category: 'unisex',
   description: 'Perfume unissex oriental amadeirado sofisticado e marcante. Notas de oud, âmbar e especiarias. Fragrância intensa e elegante, perfeita para noite e ocasiões especiais.',
-  price: 280.00,
+  price: 220.00,
   image: 'image copy 13.png',
 },
 {
@@ -233,7 +233,7 @@ const products = [
   name: 'Durrat Al Aroos',
   category: 'feminino',
   description: 'Perfume feminino floral oriental sofisticado e elegante. Notas de rosa, jasmim e baunilha. Fragrância romântica e marcante, perfeita para ocasiões especiais.',
-  price: 280.00,
+  price: 200.00,
   image: 'image copy 19.png',
 },
 {
@@ -292,7 +292,7 @@ const products = [
   name: 'Olivia',
   category: 'feminino',
   description: 'Perfume feminino floral frutado doce e elegante. Notas de frutas vermelhas, jasmim e baunilha. Fragrância leve e viciante, perfeita para uso diário e ocasiões especiais.',
-  price: 280.00,
+  price: 220.00,
   image: 'image copy 24.png',
 },
 {
@@ -348,7 +348,7 @@ const products = [
   name: 'Sabah Al Ward',
   category: 'feminino',
   description: 'Perfume intenso com notas florais, frutadas e amadeiradas, finalizando com baunilha e musk. Elegante, sofisticado e de ótima fixação.',
-  price: 280.00,
+  price: 250.00,
     image: 'image6.jpeg',
   },
     {
@@ -356,7 +356,7 @@ const products = [
     name: 'Sabah Al Ward Pink',
     category: 'feminino',
     description: 'Perfume floral frutado com notas de rosas, frutas doces e um fundo cremoso e almiscarado. Feminino, delicado e marcante.',
-    price: 280.00,
+    price: 250.00,
       image: 'image2.jpeg',
   },
    {
