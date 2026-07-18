@@ -378,7 +378,7 @@ button {
 /* Mobile */
 @media (max-width: 660px) {
   .back-to-top {
-    bottom: 700px; /* bem mais alto no celular também */
+    bottom: 600px; /* bem mais alto no celular também */
     right: 16px;
     width: 46px;
     height: 46px;
