@@ -182,8 +182,8 @@ const products = [
 {
   id: 'attar-al-wesal',
   name: 'Attar Al Wesal',
-  category: 'unisex',
-  description: 'Perfume unissex oriental amadeirado sofisticado e marcante. Notas de oud, âmbar e especiarias. Fragrância intensa e elegante, perfeita para noite e ocasiões especiais.',
+  category: 'masculino',
+  description: 'Perfume masculino oriental amadeirado sofisticado e marcante. Notas de oud, âmbar e especiarias. Fragrância intensa e elegante, perfeita para noite e ocasiões especiais.',
   price: 220.00,
   image: 'image copy 13.png',
 },
@@ -256,8 +256,8 @@ const products = [
 {
   id: 'amnia',
   name: 'Amnia',
-  category: 'unisex',
-  description: 'Perfume unissex oriental amadeirado intenso e sofisticado. Notas de oud, âmbar e especiarias. Fragrância marcante e duradoura, perfeita para noite e ocasiões especiais. Eau de Parfum 100ml.',
+  category: 'masculino',
+  description: 'Perfume masculino oriental amadeirado intenso e sofisticado. Notas de oud, âmbar e especiarias. Fragrância marcante e duradoura, perfeita para noite e ocasiões especiais. Eau de Parfum 100ml.',
   price: 200.00,
   image: 'image copy 31.png',
 },
@@ -274,8 +274,8 @@ const products = [
 {
   id: 'khalis-pure-musk',
   name: 'Khalis Pure Musk',
-  category: 'unisex',
-  description: 'Perfume unissex almiscarado floral limpo e sofisticado. Notas de almíscar branco, rosas e notas doces. Fragrância pura, elegante e versátil, ideal para uso diário.',
+  category: 'feminino',
+  description: 'Perfume feminino almiscarado floral limpo e sofisticado. Notas de almíscar branco, rosas e notas doces. Fragrância pura, elegante e versátil, ideal para uso diário.',
   price: 200.00,
   image: 'image copy 22.png',
 },
@@ -298,24 +298,16 @@ const products = [
 {
   id: 'rouge-ambre-a026',
   name: 'Rouge Ambre A026',
-  category: 'unisex',
-  description: 'Perfume unissex ambarado floral doce e sofisticado. Notas de açafrão, jasmim e âmbar. Fragrância intensa, marcante e luxuosa. Ideal para noite e eventos.',
+  category: 'feminino',
+  description: 'Perfume feminino ambarado floral doce e sofisticado. Notas de açafrão, jasmim e âmbar. Fragrância intensa, marcante e luxuosa. Ideal para noite e eventos.',
   price: 110.00,
   image: 'image copy 25.png',
 },
 {
-  id: 'attar-al-wesal',
-  name: 'Attar Al Wesal',
-  category: 'unisex',
-  description: 'Perfume unissex oriental floral amadeirado intenso e sofisticado. Notas de rosa, âmbar e almíscar. Fragrância marcante e elegante, perfeita para noite e ocasiões especiais.',
-  price: 220.00,
-  image: 'image copy 26.png',
-},
-{
   id: 'sublime-a011',
   name: 'Sublime A011',
-  category: 'unisex',
-  description: 'Perfume unissex cítrico amadeirado fresco e sofisticado. Notas de bergamota, maçã verde e almíscar. Fragrância leve e elegante, ideal para uso diário e ocasiões especiais.',
+  category: 'feminino',
+  description: 'Perfume feminino cítrico amadeirado fresco e sofisticado. Notas de bergamota, maçã verde e almíscar. Fragrância leve e elegante, ideal para uso diário e ocasiões especiais.',
   price: 90.00,
   image: 'image copy 27.png',
 },
@@ -378,8 +370,8 @@ const products = [
   {
   id: 'thena-body-cream',
   name: 'Thena Body Cream',
-  category: 'creme corporal',
-  description: 'Creme corporal hidratante e perfumado. Textura rica que nutre e deixa a pele macia com fragrância doce e sofisticada. Ideal para usar após o banho ou com perfumes da mesma linha.',
+  category: 'loção corporal',
+  description: 'Loção corporal hidratante e perfumado. Textura rica que nutre e deixa a pele macia com fragrância doce e sofisticada. Ideal para usar após o banho ou com perfumes da mesma linha.',
   price: 100.00,
   image: 'image copy 34.png',
 },
@@ -682,3 +674,21 @@ checkoutBtn.addEventListener('click', () => {
 
 renderProducts();
 updateCartDisplay();
+const backToTopBtn = document.getElementById('backToTopBtn');
+
+// Mostra o botão quando rolar 300px pra baixo
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 300) {
+    backToTopBtn.classList.add('show');
+  } else {
+    backToTopBtn.classList.remove('show');
+  }
+});
+
+// Volta pro topo com rolagem suave
+backToTopBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
