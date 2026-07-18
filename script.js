@@ -320,10 +320,10 @@ const products = [
   image: 'image copy 28.png',
 },
 {
-  id: 'shumukh-al-ward',
-  name: 'Shumukh Al Ward',
+  id: 'shagaf-al-ward',
+  name: 'Shagaf Al Ward',
   category: 'feminino',
-  description: 'Perfume feminino floral doce e sofisticado. Notas de rosa, frutas vermelhas e baunilha. Fragrância marcante e delicada, ideal para uso diário e ocasiões especiais. Eau de Parfum 100ml.',
+  description: 'Perfume feminino floral frutado doce e romântico. Notas de frutas vermelhas, pêssego, rosa, jasmim, baunilha e almíscar branco. Fragrância marcante, feminina e envolvente com excelente fixação. Eau de Parfum 100ml.',
   price: 200.00,
   image: 'image copy 29.png',
 },
