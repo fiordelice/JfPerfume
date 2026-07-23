@@ -837,9 +837,14 @@ button {
 }
 
 /* Mobile */
+/* Mobile */
 @media (max-width: 660px) {
   .cart-notification {
     bottom: 90px; /* pra não ficar em cima do botão do carrinho */
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    padding: 16px 20px;
+    width: min(92vw, 380px); /* um pouco mais estreito */
+    white-space: normal; /* permite quebrar linha */
+    line-height: 1.5;
   }
 }
