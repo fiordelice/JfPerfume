@@ -320,10 +320,10 @@ const products = [
   image: 'image copy 28.png',
 },
 {
-  id: 'shagaf-al-ward',
-  name: 'Shagaf Al Ward',
+  id: 'shumukh-al-ward',
+  name: 'Shumukh Al Ward',
   category: 'feminino',
-  description: 'Perfume feminino oriental floral doce e viciante. Abertura de frutas vermelhas e pêssego, coração de rosa e jasmim, e fundo cremoso de baunilha e almíscar branco. Elegante, romântico e com fixação intensa. Ideal para uso diário e noite. Eau de Parfum 100ml.',
+  description: 'Perfume feminino floral doce e sofisticado. Notas de rosa, frutas vermelhas e baunilha. Fragrância marcante e delicada, ideal para uso diário e ocasiões especiais. Eau de Parfum 100ml.',
   price: 200.00,
   image: 'image copy 29.png',
 },
@@ -425,8 +425,192 @@ const products = [
   description: 'Loção corporal perfumada masculina. Hidrata e perfuma a pele com fragrância amadeirada doce e especiada. Combina perfeitamente com o perfume da mesma linha. 200ml.',
   price: 50.00,
   image: 'image copy 40.png',
-}
+},
 
+{
+  id: 'brand-splash-aventus',
+  name: 'Brand Collection Body Splash Nº 129 - Aventus',
+  category: 'body splash',
+  description: 'Body Splash masculino refrescante e marcante. Notas frutadas com fundo amadeirado. Inspirado no Creed Aventus. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 41.png',
+},
+{
+  id: 'mypink-obsessed-body-splash',
+  name: 'MyPink Body Splash Obsessed',
+  category: 'body splash',
+  description: 'Body Splash feminino doce e envolvente. Notas frutadas e gourmand que marcam presença. Fragrância jovem e viciante. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 42.png',
+},
+{
+  id: 'sabah-body-splash-arabe',
+  name: 'Body Splash Árabe Sabah',
+  category: 'body splash',
+  description: 'Body Splash árabe feminino doce e sofisticado. Notas florais e amadeiradas com toque de baunilha. Fragrância marcante e elegante. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 43.png',
+},
+{
+  id: 'brand-splash-good-girl',
+  name: 'Brand Collection Body Splash Good Girl',
+  category: 'body splash',
+  description: 'Body Splash feminino doce e marcante. Notas florais com fundo amadeirado e baunilha. Inspirado no Good Girl. Fragrância sensual e elegante. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 44.png',
+},
+{
+  id: 'brand-splash-lady-million',
+  name: 'Brand Collection Body Splash Lady Million',
+  category: 'body splash',
+  description: 'Body Splash feminino doce e sofisticado. Notas frutadas com fundo mel e patchouli. Inspirado no Lady Million. Fragrância luxuosa e marcante. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 45.png',
+},
+{
+  id: 'mypink-liberte-body-splash',
+  name: 'MyPink Body Splash Liberté',
+  category: 'body splash',
+  description: 'Body Splash feminino floral e leve. Notas de rosas com toque fresco e elegante. Fragrância delicada para o dia a dia. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 46.png',
+},
+{
+  id: 'brand-splash-sauvage',
+  name: 'Brand Collection Body Splash Sauvage',
+  category: 'body splash',
+  description: 'Body Splash masculino fresco e intenso. Notas cítricas e amadeiradas. Inspirado no Sauvage Dior. Fragrância elegante para o dia a dia. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 47.png',
+},
+{
+  id: 'brand-splash-jadore',
+  name: 'Brand Collection Body Splash J\'adore',
+  category: 'body splash',
+  description: 'Body Splash feminino floral e sofisticado. Notas de jasmim, rosa e lírio. Inspirado no J\'adore Dior. Fragrância clássica e elegante. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 48.png',
+},
+{
+  id: 'mypink-splash-amora-algas-rosa',
+  name: 'MyPink Body Splash Amora, Algas e Rosa Branca',
+  category: 'body splash',
+  description: 'Body Splash feminino frutado e fresco. Notas de amora, algas e rosa branca. Fragrância leve e revigorante para o dia a dia. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 49.png',
+},
+{
+  id: 'brand-splash-idole',
+  name: 'Brand Collection Body Splash Idôle',
+  category: 'body splash',
+  description: 'Body Splash feminino floral e luminoso. Notas de rosa, jasmim e baunilha. Inspirado no Idôle Lancôme. Fragrância fresca e sofisticada. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 50.png',
+},
+{
+  id: 'splash-arabe-yara',
+  name: 'Body Splash Árabe Yara',
+  category: 'body splash',
+  description: 'Body Splash árabe feminino doce e envolvente. Notas frutadas com toque gourmand e baunilha. Fragrância marcante e sofisticada. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 51.png',
+},
+{
+  id: 'brand-splash-scandal',
+  name: 'Brand Collection Body Splash Scandal',
+  category: 'body splash',
+  description: 'Body Splash feminino doce e marcante. Notas de mel, caramelo e patchouli. Inspirado no Scandal. Fragrância sensual e elegante. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 52.png',
+},
+{
+  id: 'brand-splash-bleu-chanel',
+  name: 'Brand Collection Body Splash Bleu de Chanel',
+  category: 'body splash',
+  description: 'Body Splash masculino amadeirado e fresco. Notas de cedro, limão e pimenta. Inspirado no Bleu de Chanel. Fragrância elegante e versátil. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 53.png',
+},
+{
+  id: 'brand-splash-erba-pura',
+  name: 'Brand Collection Body Splash Erba Pura',
+  category: 'body splash',
+  description: 'Body Splash unissex frutado e cítrico. Notas de bergamota, frutas e almíscar. Inspirado no Erba Pura. Fragrância leve e sofisticada. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 54.png',
+},
+{
+  id: 'brand-splash-chhc-212-rose',
+  name: 'Brand Collection Body Splash CH HC 212 VIP Rosé',
+  category: 'body splash',
+  description: 'Body Splash feminino frutado e floral. Notas de frutas vermelhas, champanhe e flores. Inspirado no 212 VIP Rosé. Fragrância jovem e sofisticada. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 55.png',
+},
+{
+  id: 'brand-splash-musamam',
+  name: 'Brand Collection Body Splash Musamam Lattafa',
+  category: 'body splash',
+  description: 'Body Splash árabe feminino doce e amadeirado. Notas de baunilha, caramelo e madeira. Inspirado no Musamam Lattafa. Fragrância envolvente e sofisticada. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 56.png',
+},
+{
+  id: 'brand-splash-chloe',
+  name: 'Brand Collection Body Splash Chloé',
+  category: 'body splash',
+  description: 'Body Splash feminino floral e delicado. Notas de rosa, peônia e lírio do vale. Inspirado no Chloé. Fragrância leve e romântica. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 57.png',
+},
+{
+  id: 'brand-splash-212-vip-black',
+  name: 'Brand Collection Body Splash 212 VIP Black',
+  category: 'body splash',
+  description: 'Body Splash masculino amadeirado e especiado. Notas de absinto, erva-mate e couro. Inspirado no 212 VIP Black. Fragrância intensa e moderna. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 58.png',
+},
+{
+  id: 'mypink-splash-vf-golden',
+  name: 'MyPink Body Splash VF Golden',
+  category: 'body splash',
+  description: 'Body Splash feminino doce e amadeirado. Notas de baunilha, caramelo e notas amadeiradas. Linha Cuidado Essencial. Fragrância quente e envolvente. Spray 200ml.',
+  price: 59.90,
+  image: 'image copy 59.png',
+},
+{
+  id: 'brand-splash-scandal-jpg',
+  name: 'Brand Collection Body Splash Scandal Jean Paul Gaultier',
+  category: 'body splash',
+  description: 'Body Splash feminino doce e gourmand. Notas de mel, caramelo e gardenia. Inspirado no Scandal Jean Paul Gaultier. Fragrância sensual e marcante. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 60.png',
+},
+{
+  id: 'brand-kids-splash-hotwheels',
+  name: 'Brand Kids Body Splash Hot Wheels Speed Club',
+  category: 'body splash',
+  description: 'Body Splash infantil masculino cítrico e doce. Fragrância fresca e divertida inspirada no universo Hot Wheels. Para meninos. Spray 200ml.',
+  price: 49.90,
+  image: 'image copy 61.png',
+},
+{
+  id: 'brand-splash-prada-paradoxe',
+  name: 'Brand Collection Body Splash Prada Paradoxe',
+  category: 'body splash',
+  description: 'Body Splash feminino floral amadeirado. Notas de jasmim, néroli e âmbar. Inspirado no Prada Paradoxe. Fragrância sofisticada e feminina. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 62.png',
+},
+{
+  id: 'brand-splash-olympea-paco',
+  name: 'Brand Collection Body Splash Olympéa Paco Rabanne',
+  category: 'body splash',
+  description: 'Body Splash feminino oriental doce. Notas de jasmim, água salgada e baunilha. Inspirado no Olympéa Paco Rabanne. Fragrância marcante e feminina. Spray 200ml.',
+  price: 89.90,
+  image: 'image copy 63.png',
+},
 ];
 
 const productsGrid = document.getElementById('productsGrid');
@@ -678,7 +862,7 @@ const backToTopBtn = document.getElementById('backToTopBtn');
 
 // Mostra o botão quando rolar 300px pra baixo
 window.addEventListener('scroll', () => {
-  if (window.scrollY > 300) {
+  if (window.innerWidth <= 900 && window.scrollY > 300) { // só roda no mobile/tablet
     backToTopBtn.classList.add('show');
   } else {
     backToTopBtn.classList.remove('show');
@@ -691,4 +875,28 @@ backToTopBtn.addEventListener('click', () => {
     top: 0,
     behavior: 'smooth'
   });
+});
+const categoryToggle = document.getElementById('categoryToggle');
+const categoryList = document.getElementById('categoryList');
+
+// Abre/fecha o menu
+categoryToggle.addEventListener('click', (e) => {
+  e.stopPropagation();
+  categoryList.classList.toggle('show');
+});
+
+// Fecha ao clicar em uma categoria
+categoryButtons.forEach((button) => {
+  button.addEventListener('click', () => {
+    categoryButtons.forEach((btn) => btn.classList.remove('active'));
+    button.classList.add('active');
+    activeCategory = button.dataset.category;
+    renderProducts();
+    categoryList.classList.remove('show'); // fecha o menu
+  });
+});
+
+// Fecha se clicar fora
+document.addEventListener('click', () => {
+  categoryList.classList.remove('show');
 });
