@@ -446,7 +446,7 @@ const products = [
   {
   id: 'bolsa-bau-branca-coracao',
   name: 'Bolsa Baú Branca Coração',
-  category: 'feminino',
+  category: 'bolsas',
   description: 'Bolsa baú feminina branca em couro sintético. Alça de mão, zíper e detalhes em coração e franjas prateadas. Compacta e sofisticada.',
   price: 140.00,
   image: 'branca.jpeg',
