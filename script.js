@@ -256,9 +256,9 @@ const products = [
 {
   id: 'amnia',
   name: 'Amnia',
-  category: 'masculino',
-  description: 'Perfume masculino oriental amadeirado intenso e sofisticado. Notas de oud, âmbar e especiarias. Fragrância marcante e duradoura, perfeita para noite e ocasiões especiais. Eau de Parfum 100ml.',
-  price: 200.00,
+  category: 'feminino',
+  description: 'Perfume feminimo oriental amadeirado intenso e sofisticado. Notas de oud, âmbar e especiarias. Fragrância marcante e duradoura, perfeita para noite e ocasiões especiais. Eau de Parfum 100ml.',
+  price: 250.00,
   image: 'image copy 31.png',
 },
 {
