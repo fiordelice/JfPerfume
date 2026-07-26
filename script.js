@@ -435,6 +435,14 @@ const products = [
   price: 100.00,
   image: 'yara.jpeg',
 },
+  {
+  id: 'arabic-ambar-real',
+  name: 'Arabic Âmbar Real',
+  category: 'masculino',
+  description: 'Perfume oriental amadeirado com âmbar, baunilha e frutas tropicais. Fragrância doce, marcante e sofisticada. Alta fixação.',
+  price: 110.00,
+  image: 'arabic.jpeg',
+},
 ];
 
 const productsGrid = document.getElementById('productsGrid');
