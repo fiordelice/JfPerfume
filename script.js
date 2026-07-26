@@ -427,22 +427,6 @@ const products = [
   image: 'image copy 40.png',
 },
 
-{
-  id: 'brand-splash-prada-paradoxe',
-  name: 'Brand Collection Body Splash Prada Paradoxe',
-  category: 'body splash',
-  description: 'Body Splash feminino floral amadeirado. Notas de jasmim, néroli e âmbar. Inspirado no Prada Paradoxe. Fragrância sofisticada e feminina. Spray 200ml.',
-  price: 89.90,
-  image: 'image copy 62.png',
-},
-{
-  id: 'brand-splash-olympea-paco',
-  name: 'Brand Collection Body Splash Olympéa Paco Rabanne',
-  category: 'body splash',
-  description: 'Body Splash feminino oriental doce. Notas de jasmim, água salgada e baunilha. Inspirado no Olympéa Paco Rabanne. Fragrância marcante e feminina. Spray 200ml.',
-  price: 89.90,
-  image: 'image copy 63.png',
-},
   {
   id: 'yara-body-cream',
   name: 'Yara Body Cream',
