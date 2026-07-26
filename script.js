@@ -432,7 +432,7 @@ const products = [
   name: 'Yara Body Cream',
   category: 'loção corporal',
   description: 'Loção corporal hidratante perfumada com notas de baunilha, jasmim e musk. Fragrância doce e envolvente. Deixa a pele macia e cheirosa por horas.',
-  price: 100.00,
+  price: 160.00,
   image: 'yara.jpeg',
 },
   {
