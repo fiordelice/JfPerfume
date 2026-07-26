@@ -427,12 +427,12 @@ const products = [
   image: 'image copy 40.png',
 },
 
-  {
+{
   id: 'yara-body-cream',
   name: 'Yara Body Cream',
   category: 'loção corporal',
-  description: 'Loção corporal hidratante e perfumada com fragrância oriental gourmand doce e envolvente. Notas de baunilha, jasmim e musk. Pote rosa luxuoso com tampa prateada detalhada, elegante e sofisticado. Hidrata profundamente e deixa a pele macia e perfumada. Ideal para usar após o banho ou combinando com o perfume da mesma linha.',
-  price: 160.00,
+  description: 'Loção corporal hidratante perfumada com notas de baunilha, jasmim e musk. Fragrância doce e envolvente. Deixa a pele macia e cheirosa por horas.',
+  price: 100.00,
   image: 'yara.jpeg',
 },
 ];
