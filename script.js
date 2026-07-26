@@ -443,6 +443,30 @@ const products = [
   price: 110.00,
   image: 'arabic.jpeg',
 },
+  {
+  id: 'bolsa-bau-branca-coracao',
+  name: 'Bolsa Baú Branca Coração',
+  category: 'feminino',
+  description: 'Bolsa baú feminina branca em couro sintético. Alça de mão, zíper e detalhes em coração e franjas prateadas. Compacta e sofisticada.',
+  price: 140.00,
+  image: 'branca.jpeg',
+},
+  {
+  id: 'bolsa-marrom-denim',
+  name: 'Bolsa Mini Marrom Denim',
+  category: 'bolsas',
+  description: 'Bolsa mini baú marrom com alça tiracolo. Patch Denim Fashion e ferragens douradas. Compacta e estilosa.',
+  price: 140.00,
+  image: 'maa.jpeg',
+},
+{
+  id: 'bolsa-marrom-lenco',
+  name: 'Bolsa Marrom com Lenço',
+  category: 'bolsas',
+  description: 'Bolsa tote marrom com lenço na alça. Alça de mão e tiracolo. Elegante e versátil para o dia a dia.',
+  price: 140.00,
+  image: 'boo.jpeg',
+},
 ];
 
 const productsGrid = document.getElementById('productsGrid');
