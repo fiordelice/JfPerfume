@@ -277,7 +277,7 @@ const products = [
   category: 'feminino',
   description: 'Perfume feminino almiscarado floral limpo e sofisticado. Notas de almíscar branco, rosas e notas doces. Fragrância pura, elegante e versátil, ideal para uso diário.',
   price: 200.00,
-  image: 'Khalis Pure Musk.pneg',
+  image: 'Khalis Pure Musk.jpeg',
 },
 {
   id: 'menino-mau-g181',
